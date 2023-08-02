@@ -1,0 +1,1 @@
+#!/bin/bash /n find . -maxdepth 1 -print0 | sort -z -V | xargs -0 printf "%s," | sed s/,$/n/
