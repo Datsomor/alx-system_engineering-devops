@@ -1,1 +1,2 @@
-#!/bin/bash/n cp *.html ../
+#!/bin/bash 
+cp *.html ../
