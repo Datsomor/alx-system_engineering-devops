@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$(ls -l hello | awk {print })" = "guillaume" ] [chown betty hello]
+chown --from=guillaume betty hello
