@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt --time-style=long-iso | grep -v ^total | head -n 10

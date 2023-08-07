@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n +3 iacta read -r line1 read -r line2 echo "$line2" 
