@@ -1,2 +1,2 @@
 #!/bi/bash
-echo "Replace Ac and c with Ze and e" | tr Ac Ze 
+tr "A" "Z" | tr "c" "e"
