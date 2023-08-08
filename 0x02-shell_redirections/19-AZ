@@ -1,2 +1,2 @@
-#!/bi/bash
-tr 'A' 'Z' 'c' 'e'
+#!/bin/bash
+tr 'Ac' 'Ze'
