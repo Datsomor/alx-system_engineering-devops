@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -c "import sys; [print(line, end='') for i, line in enumerate(sys.stdin) if i % 2 == 0]"
+perl -lne 'print if $. % 2 ==1'
